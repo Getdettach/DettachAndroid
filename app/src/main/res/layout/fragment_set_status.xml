@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wwc.jajing.fragment.SetStatusFragment"
+    android:background="@color/BLACK"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/WHITE"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo1"
+        />
+
+    <Button
+        android:id="@+id/btn_set_status"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:background="#ff33b5e5"
+        android:text="Set Your Status"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temporarily Dettach Yourself"
+        android:textColor="@color/ORANGE"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statusDesc2"
+        android:textColor="@color/WHITE"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statusDesc3"
+        android:textColor="@color/WHITE"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

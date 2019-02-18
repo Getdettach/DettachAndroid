@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/BLACK"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/root_view">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:id="@+id/image"
+            />
+
+
+
+            <LinearLayout
+                android:id="@+id/number_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center|top"
+                android:visibility="visible"
+                android:padding="5dp"
+                android:layout_below="@+id/image"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Enter Phone Number"
+                    android:textColor="@color/WHITE"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <!--<EditText-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:textColor="@color/WHITE"-->
+                    <!--android:background="@drawable/round_corner"-->
+                    <!--android:text=""-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/phone_number"-->
+                    <!--android:maxLength="13"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:inputType="number"-->
+                    <!--/>-->
+
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:textColor="@color/WHITE"
+                        android:text=""
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:id="@+id/phone_number"
+                        android:maxLength="13"
+                        android:layout_gravity="center"
+                        android:inputType="phone"
+                        android:imeOptions="flagNoFullscreen"
+                        android:background="@drawable/round_corner"/>
+
+
+                <!--<Button-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:text="GO"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:textSize="16dp"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:id="@+id/send_number"/>-->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/submit_128"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/img_send_number"/>
+
+            </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</ScrollView>
+
+

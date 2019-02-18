@@ -1,0 +1,3 @@
+# Referenced at C:\Naveen\GitHub\DettachAndroid\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:39
+-keep class com.wwc.jajing.system.JJApplication { <init>(...); }
+

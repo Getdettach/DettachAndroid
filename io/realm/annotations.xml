@@ -1,0 +1,5 @@
+<root>
+  <item name='io.realm.Realm io.realm.RealmQuery&lt;E&gt; where(java.lang.Class&lt;E&gt;)'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

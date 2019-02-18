@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BLACK">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Repeat Status"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <TableLayout
+            android:id="@+id/tableTimeSettingTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

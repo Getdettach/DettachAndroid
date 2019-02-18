@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:background="@color/BLACK"
+    android:layout_marginRight="8dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/row_one_layout">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rayan Clark"
+                android:textColor="#ffffff"
+                android:id="@+id/contact_number"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rayan Clark"
+                android:textColor="#ffffff"
+                android:id="@+id/contact_name"/>
+        </RelativeLayout>
+
+
+        <com.github.curioustechizen.ago.RelativeTimeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aug-06-15 03:36:31 pm"
+            android:layout_weight="0.5"
+            android:textColor="#ffffff"
+            android:gravity="right"
+            android:id="@+id/time" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row_one_layout"
+        android:layout_marginBottom="5dp"
+        android:text="Rayan Clark"
+        android:textColor="#ffffff"
+        android:id="@+id/contact_message"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@+id/contact_message"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/WHITE"
+        android:alpha="0.9"
+        ></View>
+
+
+</RelativeLayout>

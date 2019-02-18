@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wwc.jajing.activities.UpdateTimeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/BLACK">
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your status "
+            android:textColor="@color/WHITE"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/status_name"
+            android:textColor="@color/YELLOW"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" will expires at "
+            android:textColor="@color/WHITE"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/end_time"
+            android:textColor="@color/YELLOW"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Extend your end time "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/WHITE"
+        android:textStyle="bold"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="10 mins"
+            android:textSize="12dp"
+            android:id="@+id/btn_ten"
+            android:layout_marginRight="5dp"
+            android:background="@color/YELLOW"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="15 mins"
+            android:textSize="12dp"
+            android:id="@+id/btn_fifteen"
+            android:textAllCaps="false"
+            android:layout_marginRight="5dp"
+            android:background="@color/YELLOW"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="1 hr"
+            android:textSize="12dp"
+            android:id="@+id/btn_twenty"
+            android:layout_marginRight="5dp"
+            android:background="@color/YELLOW"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="2 hr"
+            android:textSize="12dp"
+            android:id="@+id/btn_thirty"
+            android:background="@color/YELLOW"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

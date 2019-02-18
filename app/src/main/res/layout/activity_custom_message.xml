@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/WHITE"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/custom_layout">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/editCustomMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:capitalize="sentences"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .'-,"
+            android:hint="Status "
+            android:imeOptions="actionDone"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:textColor="@color/GREY"
+            android:textColorHint="@color/LIGHT_GREY_COLOR"
+            android:textSize="14sp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/editCustomdesc"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:capitalize="sentences"-->
+            <!--android:hint="Status Description"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:inputType="textCapWords"-->
+            <!--android:maxLength="50"-->
+            <!--android:textColor="@color/GREY"-->
+            <!--android:textColorHint="@color/LIGHT_GREY_COLOR"-->
+            <!--android:textSize="14sp" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <Button
+        android:id="@+id/buttonSaveCustomMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/TRANSPARENT"
+        android:padding="16dp"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+</LinearLayout>

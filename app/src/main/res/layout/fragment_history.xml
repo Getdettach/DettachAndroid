@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.wwc.jajing.fragment.HistoryFragment">
+
+    <TableLayout
+        android:id="@+id/tablelview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BLACK" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textHeading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:layout_centerInParent="true"
+                        android:paddingTop="10dp"
+                        android:text="Activity While Away"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/WHITE" />
+                    <RelativeLayout
+                        android:id="@+id/rl_clear"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp">
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_delete_forever_white_24dp"/>
+
+                    </RelativeLayout>
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                />
+
+            <!--android:src="@drawable/logo"-->
+
+            <TextView
+                android:id="@+id/textsubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Missed calls and texts will always be \n listed here when you return\n(all calls and messages will be auto deleted after 72 hours)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE" />
+
+        </LinearLayout>
+
+
+
+
+    </TableLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_below="@id/tablelview"
+        android:id="@+id/appbarlayout">
+
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            android:background="#feba33"
+
+
+            />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_below="@id/appbarlayout"     />
+
+
+
+</RelativeLayout>

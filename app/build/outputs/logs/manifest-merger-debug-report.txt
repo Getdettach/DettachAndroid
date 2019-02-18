@@ -1,0 +1,822 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+MERGED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.curioustechizen.android-ago:library:1.3.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\8d51082bb6fc416a5871766147b92f03\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.satyan:sugar:1.5] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\sugar-1.5.aar\766ec7936a06ebcc5deb6d71e5dc98af\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7f3f149788377d50d090c701c89c8c71\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:16:1-30:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\617a374a54851d6afa2faaf5f10fccd6\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\29a2408efa2586ab3ec6418755783630\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\37da814373eaae6b3b146f90620beaf5\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+	package
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:3:5-22
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:1-324:12
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:5:5-70
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:5:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:8:5-69
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:8:22-66
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:12:22-69
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:13:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:15:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:18:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:20:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:22:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:28:5-84
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:30:5-85
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:30:22-82
+application
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:32:5-322:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7f3f149788377d50d090c701c89c8c71\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7f3f149788377d50d090c701c89c8c71\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:19:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\617a374a54851d6afa2faaf5f10fccd6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\617a374a54851d6afa2faaf5f10fccd6\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\37da814373eaae6b3b146f90620beaf5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\37da814373eaae6b3b146f90620beaf5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:37:9-35
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:36:9-32
+	android:icon
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:35:9-38
+	android:allowBackup
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:38:9-40
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:33:9-52
+meta-data#DATABASE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:39:9-41:51
+	android:value
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:40:13-36
+meta-data#VERSION
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:42:9-44:33
+	android:value
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:44:13-30
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:43:13-35
+meta-data#QUERY_LOG
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:46:13-37
+meta-data#DOMAIN_PACKAGE_NAME
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:48:9-50:60
+	android:value
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:50:13-57
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:49:13-47
+activity#com.wwc.jajing.activities.SplashActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:53:9-65:20
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:56:13-36
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:57:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:55:13-67
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:59:13-61
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:54:13-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:63:27-74
+activity#com.wwc.jajing.activities.AwayOptionActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:78:9-88:20
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:83:13-49
+	android:parentActivityName
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:82:13-78
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:80:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:81:13-43
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:84:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:79:13-65
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:85:13-87:79
+	android:value
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:87:17-76
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:86:17-63
+activity#com.wwc.jajing.activities.AwayActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:90:9-100:20
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:95:13-49
+	android:parentActivityName
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:94:13-72
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:92:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:93:13-43
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:91:13-59
+activity#com.wwc.jajing.activities.LogActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:101:9-104:47
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:103:13-49
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:104:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:102:13-58
+activity#com.wwc.jajing.activities.DashboardActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:105:9-108:47
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:107:13-49
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:108:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:106:13-64
+activity#com.wwc.jajing.activities.MessageActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:110:9-114:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:112:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:113:13-43
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:111:13-62
+activity#com.wwc.jajing.activities.OptionsToCallingParty
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:116:9-120:50
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:118:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:120:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:117:13-68
+activity#com.wwc.jajing.activities.DoNotDisturbOptions
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:122:9-127:48
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:124:13-29
+	android:excludeFromRecents
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:127:13-46
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:126:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:123:13-66
+activity#com.wwc.jajing.activities.ContactsActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:129:9-132:51
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:131:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:130:13-63
+activity#com.wwc.jajing.activities.MissedLog
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:134:9-142:20
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:138:13-49
+	android:parentActivityName
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:137:13-73
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:136:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:135:13-56
+activity#com.wwc.jajing.activities.MissedCalls
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:144:9-147:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:146:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:145:13-58
+activity#com.wwc.jajing.activities.MissedMessages
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:149:9-152:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:152:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:151:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:150:13-61
+activity#com.wwc.jajing.activities.TimeSettingActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:154:9-157:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:157:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:156:13-42
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:155:13-66
+activity#com.wwc.jajing.activities.MyTimeSettings
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:158:9-161:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:161:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:160:13-42
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:159:13-61
+activity#com.wwc.jajing.activities.StatusActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:164:9-168:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:168:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:166:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:167:13-43
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:165:13-61
+activity#com.wwc.jajing.activities.TimeOnEnd
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:170:9-173:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:173:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:172:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:171:13-56
+activity#com.wwc.jajing.activities.PleaseWait
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:175:9-180:48
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:178:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:177:13-29
+	android:excludeFromRecents
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:180:13-46
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:179:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:176:13-57
+activity#com.wwc.jajing.activities.AboutToBreakThrough
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:182:9-186:50
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:185:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:184:13-29
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:186:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:183:13-66
+activity#com.wwc.jajing.activities.PlainAlertDialog
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:188:9-191:52
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:190:13-29
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:189:13-63
+receiver#com.wwc.jajing.sms.JJSMSBroadcastReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:202:9-208:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:204:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:203:13-62
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:205:13-207:29
+	android:priority
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:205:28-55
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:206:17-82
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:206:25-79
+receiver#com.wwc.jajing.receivers.TimeSettingReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:211:9-220:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:213:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:212:13-65
+intent-filter#action:name:com.exmaple.jajingprototype.system.event.TIME_SETTING_ON
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:214:13-216:29
+action#com.exmaple.jajingprototype.system.event.TIME_SETTING_ON
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:215:17-99
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:215:25-96
+intent-filter#action:name:com.exmaple.jajingprototype.system.event.TIME_SETTING_OFF
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:217:13-219:29
+action#com.exmaple.jajingprototype.system.event.TIME_SETTING_OFF
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:218:17-100
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:218:25-97
+receiver#com.wwc.jajing.settings.time.TimeSettingTaskManagerNotifcationReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:221:9-227:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:223:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:222:13-91
+intent-filter#action:name:com.exmaple.jajingprototype.system.event.TIME_SETTING_ENDED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:224:13-226:29
+action#com.exmaple.jajingprototype.system.event.TIME_SETTING_ENDED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:225:17-102
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:225:25-99
+receiver#com.wwc.jajing.sms.SMSReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:237:9-243:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:239:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:238:13-51
+intent-filter#action:name:com.exmaple.jajingprototype.sms.NEW_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:240:13-242:29
+	android:priority
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:240:28-55
+action#com.exmaple.jajingprototype.sms.NEW_SMS
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:241:17-82
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:241:25-79
+receiver#com.wwc.jajing.receivers.OutgoingCallReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:244:9-250:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:246:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:245:13-66
+intent-filter#action:name:android.intent.action.NEW_OUTGOING_CALL
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:247:13-249:29
+	android:priority
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:247:28-50
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:248:17-82
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:248:25-79
+receiver#com.wwc.jajing.receivers.JJSystemInitReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:251:9-257:20
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:253:13-35
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:252:13-66
+intent-filter#action:name:com.exmaple.jajingprototype.system.event.INIT_COMPLETE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:254:13-256:29
+	android:priority
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:254:28-50
+action#com.exmaple.jajingprototype.system.event.INIT_COMPLETE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:255:17-97
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:255:25-94
+service#com.wwc.jajing.services.DetachHasAppServices
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:259:9-262:40
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:261:13-35
+	android:exported
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:262:13-37
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:260:13-65
+service#com.wwc.jajing.services.JJOnAwayService
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:264:9-267:40
+	android:enabled
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:266:13-35
+	android:exported
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:267:13-37
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:265:13-60
+service#com.wwc.jajing.sms.JJSMSService
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:268:9-270:40
+	android:exported
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:270:13-37
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:269:13-52
+receiver#com.wwc.jajing.receivers.PhoneCallReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:272:9-276:20
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:272:19-69
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:273:13-275:29
+	android:priority
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:273:28-55
+action#android.intent.action.PHONE_STATE
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:274:17-76
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:274:25-73
+service#com.wwc.jajing.services.MyFirebaseMessagingService
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:278:9-283:19
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:279:13-71
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:280:13-282:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:281:17-77
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:281:25-75
+service#com.wwc.jajing.services.MyFirebaseInstanceIDService
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:286:9-291:19
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:287:13-72
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:288:13-290:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:289:17-79
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:289:25-77
+receiver#com.wwc.jajing.receivers.RestartServiceReceiver
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:293:9-300:20
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:293:19-74
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MAIN+category:name:android.intent.category.HOME
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:294:13-299:29
+category#android.intent.category.HOME
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:296:17-72
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:296:27-70
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:297:17-298:26
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:297:25-76
+activity#com.wwc.jajing.activities.HistoryActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:304:9-307:47
+	android:label
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:306:13-59
+	android:theme
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:307:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:305:13-62
+activity#com.wwc.jajing.activities.SetStatusActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:309:9-310:46
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:310:13-44
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:309:19-70
+activity#com.wwc.jajing.activities.RepeatStatusActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:312:9-76
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:312:19-73
+activity#com.wwc.jajing.activities.WantToDisturbActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:314:9-318:48
+	android:screenOrientation
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:316:13-49
+	android:excludeFromRecents
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:318:13-46
+	android:launchMode
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:317:13-48
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:315:13-68
+activity#com.wwc.jajing.activities.UpdateTimeActivity
+ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:320:9-83
+	android:name
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml:320:19-71
+uses-sdk
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:20:5-44
+MERGED from [com.github.curioustechizen.android-ago:library:1.3.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\8d51082bb6fc416a5871766147b92f03\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.curioustechizen.android-ago:library:1.3.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\8d51082bb6fc416a5871766147b92f03\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.satyan:sugar:1.5] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\sugar-1.5.aar\766ec7936a06ebcc5deb6d71e5dc98af\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.satyan:sugar:1.5] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\sugar-1.5.aar\766ec7936a06ebcc5deb6d71e5dc98af\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7f3f149788377d50d090c701c89c8c71\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\7f3f149788377d50d090c701c89c8c71\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\617a374a54851d6afa2faaf5f10fccd6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-core-10.2.1.aar\617a374a54851d6afa2faaf5f10fccd6\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\29a2408efa2586ab3ec6418755783630\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\29a2408efa2586ab3ec6418755783630\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\37da814373eaae6b3b146f90620beaf5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\37da814373eaae6b3b146f90620beaf5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Naveen\GitHub\DettachAndroid\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\a168134bf52ea37cb6651c1797960aff\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0.aar\9b3f2f928281f1b221f9678587f33cad\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\06d2d4d1c2fad824fc386831d9e6ee71\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a5a0ed5eefd13dace82a112a51f435a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\b3598291f6287e1ea4ed650b68d073f6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\dbf08435011611f5ad27b18c7dbef4bb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\37819180f7ef6ea28be42e58394a530a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\8c077036135a1be176bb8b967bc66e6e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\40917a82604a0f8a581440553439b425\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\31ba75b20d2ee6deace9934ce4d55ee2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\67b7f537a1d085e295c3d9782906e32f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d118a392a2367a308fa6c1f37b45e663\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.0] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\25bde795019928e4ff716432571f12d2\AndroidManifest.xml:27:13-51
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-messaging-10.2.1.aar\04ded7f7701a8eb201cdfd2bd54280ca\AndroidManifest.xml:23:18-87
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.2.1.aar\78bb2d845aecae3113a47072ac07fe01\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.2.1.aar\eb2400893a43847bd77d29017faeb5fd\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:17-71
+permission#com.wwc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:26:22-76
+uses-permission#com.wwc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.wwc
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:33:27-58
+category#com.wwc
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.2.1.aar\6a1dddeab204ef0361969f5a9e1698e1\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\firebase-common-10.2.1.aar\b693a9542cebcc4497e5d4704198736f\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\NTHLocal\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\6acae867d970e20bae810876ff3860ca\AndroidManifest.xml:20:20-65

@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo1"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/txtv_unabletoreach"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Sorry, the person you are calling is unable to take the call"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/buttonLeaveVoiceMail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffbb33"
+                android:onClick="leaveVoiceMail"
+                android:text="Leave Voicemail"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonWillCallBack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffbb33"
+                android:onClick="willCallBack"
+                android:text="Will Call Back"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonHangUp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffbb33"
+                android:onClick="hangUp"
+                android:text="Hang Up"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="10dp" />-->
+
+            <Button
+                android:id="@+id/buttonLeaveTextMessage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.5"
+                android:background="#ffffbb33"
+                android:onClick="leaveTextMessage"
+                android:text="Leave Text Message"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

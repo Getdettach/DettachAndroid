@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BLACK"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/layout_empty"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Status To Display"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/WHITE"
+                android:gravity="center"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_status"
+            android:visibility="visible">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/BLACK"
+                android:visibility="visible"
+                android:layout_marginTop="30dp"
+                android:id="@+id/tableLayout">
+
+                <TextView
+                    android:id="@+id/textHeading"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Your current status is set to:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/WHITE" />
+
+                <TextView
+                    android:id="@+id/textStatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/YELLOW" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:text="You will become available at "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/colorAccent" />
+                    <TextView
+                        android:id="@+id/textEndTime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="gfdsgsgsg"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/YELLOW" />
+
+                    <TextView
+                        android:id="@+id/textChange"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="(You must click I'm Available to check messages \n and resume normal use of phone)"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/WHITE" />
+
+
+                    <Button
+                        android:id="@+id/button_Chane_status"
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#ff33b5e5"
+                        android:text="Change Status"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@+id/button_extend_time"
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#ff33b5e5"
+                        android:text="Extend Time?"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_reset"
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#ff33b5e5"
+                        android:text="I`m Available"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#FFF"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/layout_extend">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/close_icon"
+                        android:id="@+id/close_icon"
+                        android:layout_alignParentRight="true"
+                        android:padding="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="3dp"
+                        android:paddingLeft="3dp"
+                        android:visibility="visible"
+                        android:layout_below="@+id/close_icon">
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:text="5 mins"
+                            android:textSize="12dp"
+                            android:id="@+id/btn_five"
+                            android:layout_marginRight="5dp"
+                            android:background="@color/YELLOW"
+                            android:textAllCaps="false"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:text="15 mins"
+                            android:textSize="12dp"
+                            android:id="@+id/btn_ten"
+                            android:layout_marginRight="5dp"
+                            android:background="@color/YELLOW"
+                            android:textAllCaps="false"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:text="30 mins"
+                            android:textSize="12dp"
+                            android:id="@+id/btn_fifteen"
+                            android:textAllCaps="false"
+                            android:layout_marginRight="5dp"
+                            android:background="@color/YELLOW"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:text="1 hr"
+                            android:textSize="12dp"
+                            android:id="@+id/btn_one_hour"
+                            android:layout_marginRight="5dp"
+                            android:background="@color/YELLOW"
+                            android:textAllCaps="false"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:text="2 hr"
+                            android:textSize="12dp"
+                            android:id="@+id/btn_two_hour"
+                            android:background="@color/YELLOW"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="@string/detach_info"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/WHITE"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="66dp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

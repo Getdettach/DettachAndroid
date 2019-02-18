@@ -1,0 +1,54 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/BLACK">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/BLACK"
+                android:gravity="top"
+                android:theme="@style/AppTheme"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/BLACK" />
+
+            <fragment
+                android:id="@+id/navigation_drawer"
+                android:name="com.wwc.jajing.fragment.NavigationDrawerFragment"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                tools:layout="@layout/fragment_navigation_drawer" />
+
+        </android.support.v4.widget.DrawerLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo1"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_setting"
+        android:gravity="center_horizontal"
+        android:textColor="@color/YELLOW"
+        android:padding="5dp"
+        android:textSize="30dp"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/busy_status"
+        android:gravity="center_horizontal"
+        android:textColor="@color/YELLOW"
+        android:padding="5dp"
+        android:textSize="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:id="@+id/layout_extend">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:visibility="visible"
+            android:layout_below="@+id/close_icon">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="5 Mins"
+                android:textSize="12dp"
+                android:id="@+id/btn_5"
+                android:layout_marginRight="5dp"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"
+                android:tag="5"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="10 Mins"
+                android:textSize="12dp"
+                android:id="@+id/btn_10"
+                android:layout_marginRight="5dp"
+                android:tag="10"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="15 Mins"
+                android:textSize="12dp"
+                android:id="@+id/btn_15"
+                android:textAllCaps="false"
+                android:tag="15"
+                android:layout_marginRight="5dp"
+                android:background="@color/YELLOW"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="30 Mins"
+                android:textSize="12dp"
+                android:id="@+id/btn_30"
+                android:layout_marginRight="5dp"
+                android:tag="30"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="45 Mins"
+                android:textSize="12dp"
+                android:id="@+id/btn_45"
+                android:tag="45"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:visibility="visible"
+            android:layout_below="@+id/close_icon">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="1 Hr"
+                android:textSize="12dp"
+                android:id="@+id/btn_1"
+                android:tag="60"
+                android:layout_marginRight="5dp"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="2 Hrs"
+                android:textSize="12dp"
+                android:tag="120"
+                android:id="@+id/btn_2"
+                android:layout_marginRight="5dp"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="4 Hrs"
+                android:textSize="12dp"
+                android:id="@+id/btn_4"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:tag="240"
+                android:background="@color/YELLOW"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="8 Hrs"
+                android:textSize="12dp"
+                android:id="@+id/btn_8"
+                android:tag="480"
+                android:layout_marginRight="5dp"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="24 Hrs"
+                android:textSize="12dp"
+                android:id="@+id/btn_24"
+                android:tag="1440"
+                android:background="@color/YELLOW"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

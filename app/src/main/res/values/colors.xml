@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0099cc</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#0099cc</color>
+    <color name="WHITE">#ffffff</color>
+    <color name="BLACK">#000000</color>
+    <color name="YELLOW">#FFBB34</color>
+    <color name="ORANGE">#FF8C00</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="MENU_ON_SELECTION">#f4efd5</color>
+    <color name="grey_light">#f5f3f1</color>
+
+    <color name="dull_white">#90FFFFFF</color>
+
+    <color name="HINT_TEXT">#a4a4a4</color>
+    <color name="REGISTER_BUTTON">#e1ddd9</color>
+    <color name="LIGHT_GREY_COLOR">#777777</color>
+    <color name="GREY">#474747</color>
+</resources>

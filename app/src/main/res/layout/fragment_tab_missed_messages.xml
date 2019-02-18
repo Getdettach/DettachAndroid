@@ -1,0 +1,128 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wwc.jajing.fragment.TabMissedcallFragment"
+    android:background="#ff000000">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driving"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffbb34" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+            <TableRow android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rayan Clark"
+                        android:textColor="#ffffff"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aug-06-15 03:36:31 pm"
+                        android:layout_weight="0.5"
+                        android:textColor="#ffffff"
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+
+            </TableRow>
+            <TableRow android:layout_width="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rayan Clark"
+                        android:textColor="#ffffff"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aug-06-15 03:36:31 pm"
+                        android:layout_weight="0.5"
+                        android:textColor="#ffffff"
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+
+            </TableRow> <TableRow android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rayan Clark"
+                    android:textColor="#ffffff"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aug-06-15 03:36:31 pm"
+                    android:layout_weight="0.5"
+                    android:textColor="#ffffff"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+
+        </TableRow> <TableRow android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rayan Clark"
+                    android:textColor="#ffffff"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aug-06-15 03:36:31 pm"
+                    android:layout_weight="0.5"
+                    android:textColor="#ffffff"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+
+        </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>
