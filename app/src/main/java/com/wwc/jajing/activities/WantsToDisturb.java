@@ -36,8 +36,6 @@ public class WantsToDisturb extends Activity {
 	private JJSMSManager jjsmsManager;
 	private JJSMSMessenger jjsmsMessenger;
 	private JJSMS jjsms;
-	private JJSMS jjsms1;
-	// This is a test
 	private Caller currentCaller;
 
 	/*
